@@ -22,9 +22,9 @@ public class Perfil {
     private Long id;
 
     @NotNull
-    @Size(min = 2,max = 25,message = "name errado")
+    @Size(min = 5,max = 25,message = "name errado")
     private String name;
     @NotNull
-    @Size(min = 2,max = 25,message = "descricao errado")
+    @Size(min = 5,max = 25,message = "descricao errado")
     private String descricao;
 }
